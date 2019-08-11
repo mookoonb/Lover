@@ -13,6 +13,8 @@
 #import "ZRAudioPlayerMgr.h"
 #import "ZRDevice.h"
 
+#import "SecondViewController.h"
+
 @interface HomeViewController ()
 
 @property (weak, nonatomic) IBOutlet UIButton *bgButton;
@@ -42,8 +44,11 @@
     birthdayModel.birthdayDescriptionTitle = @"一份来自IT男盆友的惊喜！";
     [[ZRBirthdayHeartMgr shareInstance] showBirthdayViewInViewController:self birthdayModel:birthdayModel receiveBlock:^{
 
+        SecondViewController * secondVC = [[SecondViewController alloc]init];
+        
+        [self presentViewController:secondVC animated:YES completion:^{
             
-
+        }];
     }];
 }
 
