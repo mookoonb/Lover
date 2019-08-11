@@ -13,6 +13,32 @@
 		BFD56E5522FFB9EF00032D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD56E5422FFB9EF00032D97 /* Assets.xcassets */; };
 		BFD56E5822FFB9EF00032D97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD56E5622FFB9EF00032D97 /* LaunchScreen.storyboard */; };
 		BFD56E5B22FFB9EF00032D97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56E5A22FFB9EF00032D97 /* main.m */; };
+		BFD56E6722FFBE9E00032D97 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56E6522FFBE9E00032D97 /* HomeViewController.m */; };
+		BFD56E6822FFBE9E00032D97 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFD56E6622FFBE9E00032D97 /* HomeViewController.xib */; };
+		BFD56E6C22FFBEFD00032D97 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56E6A22FFBEFD00032D97 /* SecondViewController.m */; };
+		BFD56E6D22FFBEFD00032D97 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFD56E6B22FFBEFD00032D97 /* SecondViewController.xib */; };
+		BFD56E7122FFBF2700032D97 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56E6F22FFBF2700032D97 /* ThreeViewController.m */; };
+		BFD56E7222FFBF2700032D97 /* ThreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFD56E7022FFBF2700032D97 /* ThreeViewController.xib */; };
+		BFD56E8122FFC45B00032D97 /* ZRAudioPlayerMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56E7522FFC45B00032D97 /* ZRAudioPlayerMgr.m */; };
+		BFD56E8222FFC45B00032D97 /* ZRTableViewBaseAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56E7822FFC45B00032D97 /* ZRTableViewBaseAdapter.m */; };
+		BFD56E8322FFC45B00032D97 /* UIColor+ZRColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56E7B22FFC45B00032D97 /* UIColor+ZRColor.m */; };
+		BFD56E8422FFC45B00032D97 /* ZRDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56E7C22FFC45B00032D97 /* ZRDevice.m */; };
+		BFD56E8522FFC45B00032D97 /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56E7F22FFC45B00032D97 /* UIImage+Rotate.m */; };
+		BFD56EA722FFE04700032D97 /* ZRBirthdayHeartMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56E8822FFE04700032D97 /* ZRBirthdayHeartMgr.m */; };
+		BFD56EA822FFE04700032D97 /* ZRBirthdayHeartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56E8922FFE04700032D97 /* ZRBirthdayHeartModel.m */; };
+		BFD56EA922FFE04700032D97 /* ZRBirthdayHeartView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56E8E22FFE04700032D97 /* ZRBirthdayHeartView.m */; };
+		BFD56EAA22FFE04700032D97 /* ZRBirthdayHeartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFD56E9122FFE04700032D97 /* ZRBirthdayHeartViewController.xib */; };
+		BFD56EAB22FFE04700032D97 /* ZRBirthdayHeartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56E9222FFE04700032D97 /* ZRBirthdayHeartViewController.m */; };
+		BFD56EAC22FFE04700032D97 /* ZRBirthdayEnvelopeFriendsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56E9522FFE04700032D97 /* ZRBirthdayEnvelopeFriendsItem.m */; };
+		BFD56EAD22FFE04700032D97 /* ZRBirthdayEnvelopeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56E9622FFE04700032D97 /* ZRBirthdayEnvelopeModel.m */; };
+		BFD56EAE22FFE04700032D97 /* ZRBirthdayEnvelopeMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56E9722FFE04700032D97 /* ZRBirthdayEnvelopeMgr.m */; };
+		BFD56EAF22FFE04700032D97 /* ZRBirthdayEnvelopeUserFriendsCCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFD56E9C22FFE04700032D97 /* ZRBirthdayEnvelopeUserFriendsCCell.xib */; };
+		BFD56EB022FFE04700032D97 /* ZRBirthdayEnvelopeUserDescView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56E9D22FFE04700032D97 /* ZRBirthdayEnvelopeUserDescView.m */; };
+		BFD56EB122FFE04700032D97 /* ZRBirthdayEnvelopeUserFriendsCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56E9E22FFE04700032D97 /* ZRBirthdayEnvelopeUserFriendsCCell.m */; };
+		BFD56EB222FFE04700032D97 /* ZRBirthdayEnvelopeView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56EA222FFE04700032D97 /* ZRBirthdayEnvelopeView.m */; };
+		BFD56EB322FFE04700032D97 /* ZRBirthdayEnvelopeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFD56EA422FFE04700032D97 /* ZRBirthdayEnvelopeViewController.xib */; };
+		BFD56EB422FFE04700032D97 /* ZRBirthdayEnvelopeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56EA522FFE04700032D97 /* ZRBirthdayEnvelopeViewController.m */; };
+		BFD56EB622FFEB5100032D97 /* eba5d13dd4de0aee395bf9d208ab29f7.gif in Resources */ = {isa = PBXBuildFile; fileRef = BFD56EB522FFEB5100032D97 /* eba5d13dd4de0aee395bf9d208ab29f7.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +52,53 @@
 		BFD56E5722FFB9EF00032D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFD56E5922FFB9EF00032D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFD56E5A22FFB9EF00032D97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFD56E6422FFBE9E00032D97 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		BFD56E6522FFBE9E00032D97 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		BFD56E6622FFBE9E00032D97 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		BFD56E6922FFBEFD00032D97 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		BFD56E6A22FFBEFD00032D97 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		BFD56E6B22FFBEFD00032D97 /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		BFD56E6E22FFBF2700032D97 /* ThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		BFD56E6F22FFBF2700032D97 /* ThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		BFD56E7022FFBF2700032D97 /* ThreeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThreeViewController.xib; sourceTree = "<group>"; };
+		BFD56E7422FFC45B00032D97 /* ZRPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRPrefixHeader.pch; sourceTree = "<group>"; };
+		BFD56E7522FFC45B00032D97 /* ZRAudioPlayerMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRAudioPlayerMgr.m; sourceTree = "<group>"; };
+		BFD56E7622FFC45B00032D97 /* ZRDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRDevice.h; sourceTree = "<group>"; };
+		BFD56E7822FFC45B00032D97 /* ZRTableViewBaseAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRTableViewBaseAdapter.m; sourceTree = "<group>"; };
+		BFD56E7922FFC45B00032D97 /* ZRTableViewBaseAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRTableViewBaseAdapter.h; sourceTree = "<group>"; };
+		BFD56E7A22FFC45B00032D97 /* UIImage+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rotate.h"; sourceTree = "<group>"; };
+		BFD56E7B22FFC45B00032D97 /* UIColor+ZRColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZRColor.m"; sourceTree = "<group>"; };
+		BFD56E7C22FFC45B00032D97 /* ZRDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRDevice.m; sourceTree = "<group>"; };
+		BFD56E7D22FFC45B00032D97 /* ZRAudioPlayerMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRAudioPlayerMgr.h; sourceTree = "<group>"; };
+		BFD56E7E22FFC45B00032D97 /* ZRBaseDefined.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRBaseDefined.h; sourceTree = "<group>"; };
+		BFD56E7F22FFC45B00032D97 /* UIImage+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Rotate.m"; sourceTree = "<group>"; };
+		BFD56E8022FFC45B00032D97 /* UIColor+ZRColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZRColor.h"; sourceTree = "<group>"; };
+		BFD56E8822FFE04700032D97 /* ZRBirthdayHeartMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRBirthdayHeartMgr.m; sourceTree = "<group>"; };
+		BFD56E8922FFE04700032D97 /* ZRBirthdayHeartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRBirthdayHeartModel.m; sourceTree = "<group>"; };
+		BFD56E8A22FFE04700032D97 /* ZRBirthdayHeartMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRBirthdayHeartMgr.h; sourceTree = "<group>"; };
+		BFD56E8B22FFE04700032D97 /* ZRBirthdayHeartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRBirthdayHeartModel.h; sourceTree = "<group>"; };
+		BFD56E8D22FFE04700032D97 /* ZRBirthdayHeartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRBirthdayHeartView.h; sourceTree = "<group>"; };
+		BFD56E8E22FFE04700032D97 /* ZRBirthdayHeartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRBirthdayHeartView.m; sourceTree = "<group>"; };
+		BFD56E9022FFE04700032D97 /* ZRBirthdayHeartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRBirthdayHeartViewController.h; sourceTree = "<group>"; };
+		BFD56E9122FFE04700032D97 /* ZRBirthdayHeartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZRBirthdayHeartViewController.xib; sourceTree = "<group>"; };
+		BFD56E9222FFE04700032D97 /* ZRBirthdayHeartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRBirthdayHeartViewController.m; sourceTree = "<group>"; };
+		BFD56E9522FFE04700032D97 /* ZRBirthdayEnvelopeFriendsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRBirthdayEnvelopeFriendsItem.m; sourceTree = "<group>"; };
+		BFD56E9622FFE04700032D97 /* ZRBirthdayEnvelopeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRBirthdayEnvelopeModel.m; sourceTree = "<group>"; };
+		BFD56E9722FFE04700032D97 /* ZRBirthdayEnvelopeMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRBirthdayEnvelopeMgr.m; sourceTree = "<group>"; };
+		BFD56E9822FFE04700032D97 /* ZRBirthdayEnvelopeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRBirthdayEnvelopeModel.h; sourceTree = "<group>"; };
+		BFD56E9922FFE04700032D97 /* ZRBirthdayEnvelopeFriendsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRBirthdayEnvelopeFriendsItem.h; sourceTree = "<group>"; };
+		BFD56E9A22FFE04700032D97 /* ZRBirthdayEnvelopeMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRBirthdayEnvelopeMgr.h; sourceTree = "<group>"; };
+		BFD56E9C22FFE04700032D97 /* ZRBirthdayEnvelopeUserFriendsCCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZRBirthdayEnvelopeUserFriendsCCell.xib; sourceTree = "<group>"; };
+		BFD56E9D22FFE04700032D97 /* ZRBirthdayEnvelopeUserDescView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRBirthdayEnvelopeUserDescView.m; sourceTree = "<group>"; };
+		BFD56E9E22FFE04700032D97 /* ZRBirthdayEnvelopeUserFriendsCCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRBirthdayEnvelopeUserFriendsCCell.m; sourceTree = "<group>"; };
+		BFD56E9F22FFE04700032D97 /* ZRBirthdayEnvelopeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRBirthdayEnvelopeView.h; sourceTree = "<group>"; };
+		BFD56EA022FFE04700032D97 /* ZRBirthdayEnvelopeUserDescView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRBirthdayEnvelopeUserDescView.h; sourceTree = "<group>"; };
+		BFD56EA122FFE04700032D97 /* ZRBirthdayEnvelopeUserFriendsCCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRBirthdayEnvelopeUserFriendsCCell.h; sourceTree = "<group>"; };
+		BFD56EA222FFE04700032D97 /* ZRBirthdayEnvelopeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRBirthdayEnvelopeView.m; sourceTree = "<group>"; };
+		BFD56EA422FFE04700032D97 /* ZRBirthdayEnvelopeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZRBirthdayEnvelopeViewController.xib; sourceTree = "<group>"; };
+		BFD56EA522FFE04700032D97 /* ZRBirthdayEnvelopeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRBirthdayEnvelopeViewController.m; sourceTree = "<group>"; };
+		BFD56EA622FFE04700032D97 /* ZRBirthdayEnvelopeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRBirthdayEnvelopeViewController.h; sourceTree = "<group>"; };
+		BFD56EB522FFEB5100032D97 /* eba5d13dd4de0aee395bf9d208ab29f7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = eba5d13dd4de0aee395bf9d208ab29f7.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +131,13 @@
 		BFD56E4A22FFB9EA00032D97 /* Lover */ = {
 			isa = PBXGroup;
 			children = (
+				BFD56EB522FFEB5100032D97 /* eba5d13dd4de0aee395bf9d208ab29f7.gif */,
+				BFD56E9322FFE04700032D97 /* ZRBirthdayEnvelope */,
+				BFD56E8622FFE04700032D97 /* ZRBirthdayHeart */,
+				BFD56E7322FFC45B00032D97 /* ZRBaseLib */,
+				BFD56E6322FFBE8800032D97 /* Models */,
+				BFD56E6222FFBE7D00032D97 /* Views */,
+				BFD56E6122FFBE7500032D97 /* Page */,
 				BFD56E4B22FFB9EA00032D97 /* AppDelegate.h */,
 				BFD56E4C22FFB9EA00032D97 /* AppDelegate.m */,
 				BFD56E4E22FFB9EA00032D97 /* ViewController.h */,
@@ -69,6 +149,150 @@
 				BFD56E5A22FFB9EF00032D97 /* main.m */,
 			);
 			path = Lover;
+			sourceTree = "<group>";
+		};
+		BFD56E6122FFBE7500032D97 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				BFD56E6422FFBE9E00032D97 /* HomeViewController.h */,
+				BFD56E6522FFBE9E00032D97 /* HomeViewController.m */,
+				BFD56E6622FFBE9E00032D97 /* HomeViewController.xib */,
+				BFD56E6922FFBEFD00032D97 /* SecondViewController.h */,
+				BFD56E6A22FFBEFD00032D97 /* SecondViewController.m */,
+				BFD56E6B22FFBEFD00032D97 /* SecondViewController.xib */,
+				BFD56E6E22FFBF2700032D97 /* ThreeViewController.h */,
+				BFD56E6F22FFBF2700032D97 /* ThreeViewController.m */,
+				BFD56E7022FFBF2700032D97 /* ThreeViewController.xib */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		BFD56E6222FFBE7D00032D97 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BFD56E6322FFBE8800032D97 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BFD56E7322FFC45B00032D97 /* ZRBaseLib */ = {
+			isa = PBXGroup;
+			children = (
+				BFD56E7422FFC45B00032D97 /* ZRPrefixHeader.pch */,
+				BFD56E7522FFC45B00032D97 /* ZRAudioPlayerMgr.m */,
+				BFD56E7622FFC45B00032D97 /* ZRDevice.h */,
+				BFD56E7722FFC45B00032D97 /* ZRAdapter */,
+				BFD56E7A22FFC45B00032D97 /* UIImage+Rotate.h */,
+				BFD56E7B22FFC45B00032D97 /* UIColor+ZRColor.m */,
+				BFD56E7C22FFC45B00032D97 /* ZRDevice.m */,
+				BFD56E7D22FFC45B00032D97 /* ZRAudioPlayerMgr.h */,
+				BFD56E7E22FFC45B00032D97 /* ZRBaseDefined.h */,
+				BFD56E7F22FFC45B00032D97 /* UIImage+Rotate.m */,
+				BFD56E8022FFC45B00032D97 /* UIColor+ZRColor.h */,
+			);
+			path = ZRBaseLib;
+			sourceTree = "<group>";
+		};
+		BFD56E7722FFC45B00032D97 /* ZRAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				BFD56E7822FFC45B00032D97 /* ZRTableViewBaseAdapter.m */,
+				BFD56E7922FFC45B00032D97 /* ZRTableViewBaseAdapter.h */,
+			);
+			path = ZRAdapter;
+			sourceTree = "<group>";
+		};
+		BFD56E8622FFE04700032D97 /* ZRBirthdayHeart */ = {
+			isa = PBXGroup;
+			children = (
+				BFD56E8722FFE04700032D97 /* Model */,
+				BFD56E8C22FFE04700032D97 /* View */,
+				BFD56E8F22FFE04700032D97 /* ViewController */,
+			);
+			path = ZRBirthdayHeart;
+			sourceTree = "<group>";
+		};
+		BFD56E8722FFE04700032D97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BFD56E8822FFE04700032D97 /* ZRBirthdayHeartMgr.m */,
+				BFD56E8922FFE04700032D97 /* ZRBirthdayHeartModel.m */,
+				BFD56E8A22FFE04700032D97 /* ZRBirthdayHeartMgr.h */,
+				BFD56E8B22FFE04700032D97 /* ZRBirthdayHeartModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFD56E8C22FFE04700032D97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BFD56E8D22FFE04700032D97 /* ZRBirthdayHeartView.h */,
+				BFD56E8E22FFE04700032D97 /* ZRBirthdayHeartView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFD56E8F22FFE04700032D97 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BFD56E9022FFE04700032D97 /* ZRBirthdayHeartViewController.h */,
+				BFD56E9122FFE04700032D97 /* ZRBirthdayHeartViewController.xib */,
+				BFD56E9222FFE04700032D97 /* ZRBirthdayHeartViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BFD56E9322FFE04700032D97 /* ZRBirthdayEnvelope */ = {
+			isa = PBXGroup;
+			children = (
+				BFD56E9422FFE04700032D97 /* Model */,
+				BFD56E9B22FFE04700032D97 /* View */,
+				BFD56EA322FFE04700032D97 /* ViewController */,
+			);
+			path = ZRBirthdayEnvelope;
+			sourceTree = "<group>";
+		};
+		BFD56E9422FFE04700032D97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BFD56E9522FFE04700032D97 /* ZRBirthdayEnvelopeFriendsItem.m */,
+				BFD56E9622FFE04700032D97 /* ZRBirthdayEnvelopeModel.m */,
+				BFD56E9722FFE04700032D97 /* ZRBirthdayEnvelopeMgr.m */,
+				BFD56E9822FFE04700032D97 /* ZRBirthdayEnvelopeModel.h */,
+				BFD56E9922FFE04700032D97 /* ZRBirthdayEnvelopeFriendsItem.h */,
+				BFD56E9A22FFE04700032D97 /* ZRBirthdayEnvelopeMgr.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFD56E9B22FFE04700032D97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BFD56E9C22FFE04700032D97 /* ZRBirthdayEnvelopeUserFriendsCCell.xib */,
+				BFD56E9D22FFE04700032D97 /* ZRBirthdayEnvelopeUserDescView.m */,
+				BFD56E9E22FFE04700032D97 /* ZRBirthdayEnvelopeUserFriendsCCell.m */,
+				BFD56E9F22FFE04700032D97 /* ZRBirthdayEnvelopeView.h */,
+				BFD56EA022FFE04700032D97 /* ZRBirthdayEnvelopeUserDescView.h */,
+				BFD56EA122FFE04700032D97 /* ZRBirthdayEnvelopeUserFriendsCCell.h */,
+				BFD56EA222FFE04700032D97 /* ZRBirthdayEnvelopeView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFD56EA322FFE04700032D97 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BFD56EA422FFE04700032D97 /* ZRBirthdayEnvelopeViewController.xib */,
+				BFD56EA522FFE04700032D97 /* ZRBirthdayEnvelopeViewController.m */,
+				BFD56EA622FFE04700032D97 /* ZRBirthdayEnvelopeViewController.h */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +352,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFD56EB322FFE04700032D97 /* ZRBirthdayEnvelopeViewController.xib in Resources */,
 				BFD56E5822FFB9EF00032D97 /* LaunchScreen.storyboard in Resources */,
+				BFD56EB622FFEB5100032D97 /* eba5d13dd4de0aee395bf9d208ab29f7.gif in Resources */,
 				BFD56E5522FFB9EF00032D97 /* Assets.xcassets in Resources */,
 				BFD56E5322FFB9EA00032D97 /* Main.storyboard in Resources */,
+				BFD56E6822FFBE9E00032D97 /* HomeViewController.xib in Resources */,
+				BFD56EAA22FFE04700032D97 /* ZRBirthdayHeartViewController.xib in Resources */,
+				BFD56EAF22FFE04700032D97 /* ZRBirthdayEnvelopeUserFriendsCCell.xib in Resources */,
+				BFD56E6D22FFBEFD00032D97 /* SecondViewController.xib in Resources */,
+				BFD56E7222FFBF2700032D97 /* ThreeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +372,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFD56E6C22FFBEFD00032D97 /* SecondViewController.m in Sources */,
+				BFD56EB122FFE04700032D97 /* ZRBirthdayEnvelopeUserFriendsCCell.m in Sources */,
+				BFD56EAD22FFE04700032D97 /* ZRBirthdayEnvelopeModel.m in Sources */,
+				BFD56E8122FFC45B00032D97 /* ZRAudioPlayerMgr.m in Sources */,
+				BFD56EB022FFE04700032D97 /* ZRBirthdayEnvelopeUserDescView.m in Sources */,
 				BFD56E5022FFB9EA00032D97 /* ViewController.m in Sources */,
+				BFD56EAB22FFE04700032D97 /* ZRBirthdayHeartViewController.m in Sources */,
 				BFD56E5B22FFB9EF00032D97 /* main.m in Sources */,
+				BFD56EAC22FFE04700032D97 /* ZRBirthdayEnvelopeFriendsItem.m in Sources */,
+				BFD56EB422FFE04700032D97 /* ZRBirthdayEnvelopeViewController.m in Sources */,
+				BFD56E7122FFBF2700032D97 /* ThreeViewController.m in Sources */,
+				BFD56E8322FFC45B00032D97 /* UIColor+ZRColor.m in Sources */,
+				BFD56EA922FFE04700032D97 /* ZRBirthdayHeartView.m in Sources */,
 				BFD56E4D22FFB9EA00032D97 /* AppDelegate.m in Sources */,
+				BFD56E8222FFC45B00032D97 /* ZRTableViewBaseAdapter.m in Sources */,
+				BFD56EA722FFE04700032D97 /* ZRBirthdayHeartMgr.m in Sources */,
+				BFD56EA822FFE04700032D97 /* ZRBirthdayHeartModel.m in Sources */,
+				BFD56E6722FFBE9E00032D97 /* HomeViewController.m in Sources */,
+				BFD56EB222FFE04700032D97 /* ZRBirthdayEnvelopeView.m in Sources */,
+				BFD56E8522FFC45B00032D97 /* UIImage+Rotate.m in Sources */,
+				BFD56E8422FFC45B00032D97 /* ZRDevice.m in Sources */,
+				BFD56EAE22FFE04700032D97 /* ZRBirthdayEnvelopeMgr.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,14 +536,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Lover/ZRBaseLib/ZRPrefixHeader.pch";
 				INFOPLIST_FILE = Lover/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = sss.Lover;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,14 +554,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Lover/ZRBaseLib/ZRPrefixHeader.pch";
 				INFOPLIST_FILE = Lover/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = sss.Lover;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

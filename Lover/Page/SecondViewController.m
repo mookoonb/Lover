@@ -1,29 +1,25 @@
 //
-//  ViewController.m
+//  SecondViewController.m
 //  Lover
 //
 //  Created by yaoquanfeng on 2019/8/11.
 //  Copyright © 2019 yqf. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "SecondViewController.h"
 
-@interface ViewController ()
-
+@interface SecondViewController ()
 
 @end
 
-
-@implementation ViewController
-
+@implementation SecondViewController
 
 - (void)viewDidLoad {
 
-    
-    
     [super viewDidLoad];
-    
+
 }
+
 
 
 @end

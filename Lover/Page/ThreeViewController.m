@@ -1,29 +1,25 @@
 //
-//  ViewController.m
+//  ThreeViewController.m
 //  Lover
 //
 //  Created by yaoquanfeng on 2019/8/11.
 //  Copyright © 2019 yqf. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ThreeViewController.h"
 
-@interface ViewController ()
-
+@interface ThreeViewController ()
 
 @end
 
-
-@implementation ViewController
-
+@implementation ThreeViewController
 
 - (void)viewDidLoad {
-
-    
-    
     [super viewDidLoad];
-    
+
+
 }
+
 
 
 @end
