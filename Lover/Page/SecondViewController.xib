@@ -12,6 +12,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SecondViewController">
             <connections>
+                <outlet property="backgroundView" destination="agN-Qn-She" id="nd0-oh-2Ns"/>
+                <outlet property="contentImgV" destination="vvC-HS-SBN" id="AVh-Ky-okj"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -19,8 +21,31 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="treetwo.png" translatesAutoresizingMaskIntoConstraints="NO" id="vvC-HS-SBN">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="agN-Qn-She">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </imageView>
+            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="agN-Qn-She" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="5yV-5U-pnN"/>
+                <constraint firstItem="vvC-HS-SBN" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="EGc-L2-Z5m"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="agN-Qn-She" secondAttribute="bottom" id="F8B-rf-ES8"/>
+                <constraint firstItem="agN-Qn-She" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="JPA-UV-RW6"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="agN-Qn-She" secondAttribute="trailing" id="MPR-ip-ywl"/>
+                <constraint firstItem="vvC-HS-SBN" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="pzs-cJ-qDu"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="vvC-HS-SBN" secondAttribute="bottom" id="uZ0-NU-ODA"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="vvC-HS-SBN" secondAttribute="trailing" id="z37-KH-Myi"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
         </view>
     </objects>
+    <resources>
+        <image name="treetwo.png" width="1500" height="1000"/>
+    </resources>
 </document>

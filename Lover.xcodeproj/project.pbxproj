@@ -41,7 +41,7 @@
 		BFD56EB622FFEB5100032D97 /* eba5d13dd4de0aee395bf9d208ab29f7.gif in Resources */ = {isa = PBXBuildFile; fileRef = BFD56EB522FFEB5100032D97 /* eba5d13dd4de0aee395bf9d208ab29f7.gif */; };
 		BFD56EBC22FFF69700032D97 /* 樱花树1.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD56EB722FFF69600032D97 /* 樱花树1.png */; };
 		BFD56EBD22FFF69700032D97 /* 樱花瓣1.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD56EB822FFF69600032D97 /* 樱花瓣1.png */; };
-		BFD56EBE22FFF69700032D97 /* 樱花树2.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD56EB922FFF69600032D97 /* 樱花树2.png */; };
+		BFD56EBE22FFF69700032D97 /* treetwo.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD56EB922FFF69600032D97 /* treetwo.png */; };
 		BFD56EBF22FFF69700032D97 /* 樱花树3.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD56EBA22FFF69600032D97 /* 樱花树3.png */; };
 		BFD56EC022FFF69700032D97 /* 樱花瓣2.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD56EBB22FFF69600032D97 /* 樱花瓣2.png */; };
 /* End PBXBuildFile section */
@@ -106,7 +106,7 @@
 		BFD56EB522FFEB5100032D97 /* eba5d13dd4de0aee395bf9d208ab29f7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = eba5d13dd4de0aee395bf9d208ab29f7.gif; sourceTree = "<group>"; };
 		BFD56EB722FFF69600032D97 /* 樱花树1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "樱花树1.png"; sourceTree = "<group>"; };
 		BFD56EB822FFF69600032D97 /* 樱花瓣1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "樱花瓣1.png"; sourceTree = "<group>"; };
-		BFD56EB922FFF69600032D97 /* 樱花树2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "樱花树2.png"; sourceTree = "<group>"; };
+		BFD56EB922FFF69600032D97 /* treetwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = treetwo.png; sourceTree = "<group>"; };
 		BFD56EBA22FFF69600032D97 /* 樱花树3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "樱花树3.png"; sourceTree = "<group>"; };
 		BFD56EBB22FFF69600032D97 /* 樱花瓣2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "樱花瓣2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -167,7 +167,7 @@
 				BFD56EB822FFF69600032D97 /* 樱花瓣1.png */,
 				BFD56EBB22FFF69600032D97 /* 樱花瓣2.png */,
 				BFD56EB722FFF69600032D97 /* 樱花树1.png */,
-				BFD56EB922FFF69600032D97 /* 樱花树2.png */,
+				BFD56EB922FFF69600032D97 /* treetwo.png */,
 				BFD56EBA22FFF69600032D97 /* 樱花树3.png */,
 				BFD56E6422FFBE9E00032D97 /* HomeViewController.h */,
 				BFD56E6522FFBE9E00032D97 /* HomeViewController.m */,
@@ -369,7 +369,7 @@
 			files = (
 				BFD56EBC22FFF69700032D97 /* 樱花树1.png in Resources */,
 				BFD56EB322FFE04700032D97 /* ZRBirthdayEnvelopeViewController.xib in Resources */,
-				BFD56EBE22FFF69700032D97 /* 樱花树2.png in Resources */,
+				BFD56EBE22FFF69700032D97 /* treetwo.png in Resources */,
 				BFD56E5822FFB9EF00032D97 /* LaunchScreen.storyboard in Resources */,
 				BFD56EB622FFEB5100032D97 /* eba5d13dd4de0aee395bf9d208ab29f7.gif in Resources */,
 				BFD56E5522FFB9EF00032D97 /* Assets.xcassets in Resources */,

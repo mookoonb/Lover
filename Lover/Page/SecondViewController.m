@@ -11,6 +11,8 @@
 
 @interface SecondViewController ()
 
+@property (weak, nonatomic) IBOutlet UIImageView *backgroundView;
+@property (weak, nonatomic) IBOutlet UIImageView *contentImgV;
 
 @end
 
@@ -19,15 +21,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    //    cell.contents = (__bridge id)[UIImage imageNamed:@"47b5e3384e311b4f.jpg"].CGImage;
+
     self.view.backgroundColor = [UIColor whiteColor];
     
     
-    // =================== 背景图片 ===========================
-    UIImageView * backgroundView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)];
-    backgroundView.image = [UIImage imageNamed:@"樱花树1"];
-    backgroundView.contentMode = UIViewContentModeScaleAspectFill;
-    [self.view addSubview:backgroundView];
+//    // =================== 背景图片 ===========================
+//    UIImageView * backgroundView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)];
+//    backgroundView.image = [UIImage imageNamed:@"樱花树1"];
+//    backgroundView.contentMode = UIViewContentModeScaleAspectFill;
+//    [self.view addSubview:backgroundView];
     
     
     // =================== 樱花飘落 ====================
@@ -74,14 +76,10 @@
     // 阴影的颜色
     snowEmitterLayer.shadowColor = [[UIColor whiteColor] CGColor];
     
-    
     snowEmitterLayer.emitterCells = [NSArray arrayWithObject:snowCell];
-    [backgroundView.layer addSublayer:snowEmitterLayer];
     
-    
-    
-    
-    
+    [self.backgroundView.layer addSublayer:snowEmitterLayer];
+
 }
 
 
