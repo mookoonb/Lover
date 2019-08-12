@@ -556,6 +556,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXX3RW9MPS;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Lover/ZRBaseLib/ZRPrefixHeader.pch";
 				INFOPLIST_FILE = Lover/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -563,7 +564,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = sss.Lover;
+				PRODUCT_BUNDLE_IDENTIFIER = sss.Lovers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -574,6 +575,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXX3RW9MPS;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Lover/ZRBaseLib/ZRPrefixHeader.pch";
 				INFOPLIST_FILE = Lover/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -581,7 +583,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = sss.Lover;
+				PRODUCT_BUNDLE_IDENTIFIER = sss.Lovers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};

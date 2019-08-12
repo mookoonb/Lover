@@ -36,24 +36,17 @@
     [self showHeartBirthdayViewController];
 }
 
-// 心形生日快乐
+
 - (void)showHeartBirthdayViewController {
     ZRBirthdayHeartModel *birthdayModel = [[ZRBirthdayHeartModel alloc] init];
     birthdayModel.birthdayTitle = @"亲爱的韩小姐";
     birthdayModel.birthdaySubTitle = @"我为你准备了";
     birthdayModel.birthdayDescriptionTitle = @"一份来自IT男盆友的惊喜！";
     [[ZRBirthdayHeartMgr shareInstance] showBirthdayViewInViewController:self birthdayModel:birthdayModel receiveBlock:^{
-
         SecondViewController * secondVC = [[SecondViewController alloc]init];
-        
         [self presentViewController:secondVC animated:YES completion:^{
-            
         }];
     }];
-}
-
-- (void)dealloc {
-    NSLog(@"%@",[self class]);
 }
 
 
