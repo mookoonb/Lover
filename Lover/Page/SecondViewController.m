@@ -23,13 +23,12 @@
 
 @implementation SecondViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-
-    self.view.backgroundColor = [UIColor whiteColor];
+- (void)viewDidLoad{
     
+    [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
     [self.contentImgV addSubview:self.dreamImgV];
+
     
     [self.dreamImgV mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerX.equalTo(self.contentImgV);
@@ -37,15 +36,12 @@
         make.width.mas_equalTo (200);
         make.height.mas_equalTo(300);
     }];
-
     
-    // =================== 樱花飘落 ====================
     CAEmitterLayer * snowEmitterLayer = [CAEmitterLayer layer];
     snowEmitterLayer.emitterPosition = CGPointMake(100, -30);
     snowEmitterLayer.emitterSize = CGSizeMake(self.view.bounds.size.width * 2, 0);
     snowEmitterLayer.emitterMode = kCAEmitterLayerOutline;
     snowEmitterLayer.emitterShape = kCAEmitterLayerLine;
-    //    snowEmitterLayer.renderMode = kCAEmitterLayerAdditive;
     
     CAEmitterCell * snowCell = [CAEmitterCell emitterCell];
     snowCell.contents = (__bridge id)[UIImage imageNamed:@"樱花瓣2"].CGImage;
@@ -71,10 +67,6 @@
     // 花瓣旋转的速度
     snowCell.spin = M_PI_4;
     
-    // 每个cell的颜色
-    //    snowCell.color = [[UIColor redColor] CGColor];
-    
-    // 阴影的 不透明 度
     snowEmitterLayer.shadowOpacity = 1;
     // 阴影化开的程度（就像墨水滴在宣纸上化开那样）
     snowEmitterLayer.shadowRadius = 8;
@@ -82,34 +74,23 @@
     snowEmitterLayer.shadowOffset = CGSizeMake(3, 3);
     // 阴影的颜色
     snowEmitterLayer.shadowColor = [[UIColor whiteColor] CGColor];
-    
     snowEmitterLayer.emitterCells = [NSArray arrayWithObject:snowCell];
     
     [self.backgroundView.layer addSublayer:snowEmitterLayer];
-    
-    
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        
         [snowEmitterLayer removeFromSuperlayer];
-
         self.contentImgV.image = [UIImage imageNamed:@"jiguang"];
     });
     
-    
     self.dreamImgV.userInteractionEnabled = YES;
-    
     [self.dreamImgV addSubview:self.antionBtn];
-    
-    
     [self.antionBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.bottom.left.right.mas_equalTo(0);
     }];
     
-    
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(6 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(10 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         [self.antionBtn sendActionsForControlEvents:UIControlEventTouchUpInside];
     });
-
 }
 
 - (void)actionBtnAction:(id)sender{
