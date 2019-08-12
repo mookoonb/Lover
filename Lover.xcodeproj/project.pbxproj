@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -51,6 +51,7 @@
 		BFD56ED7230112AB00032D97 /* num_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFD56ECD230112AA00032D97 /* num_4.mp3 */; };
 		BFD56ED8230112AB00032D97 /* num_6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFD56ECE230112AA00032D97 /* num_6.mp3 */; };
 		BFD56ED9230112AB00032D97 /* num_7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFD56ECF230112AA00032D97 /* num_7.mp3 */; };
+		BFD56EDC23018D5300032D97 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56EDB23018D5200032D97 /* UIView+Frame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -124,6 +125,8 @@
 		BFD56ECD230112AA00032D97 /* num_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = num_4.mp3; sourceTree = "<group>"; };
 		BFD56ECE230112AA00032D97 /* num_6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = num_6.mp3; sourceTree = "<group>"; };
 		BFD56ECF230112AA00032D97 /* num_7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = num_7.mp3; sourceTree = "<group>"; };
+		BFD56EDA23018D5200032D97 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		BFD56EDB23018D5200032D97 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		C39BA7F6974A66583E86BF6F /* Pods-Lover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lover.debug.xcconfig"; path = "Target Support Files/Pods-Lover/Pods-Lover.debug.xcconfig"; sourceTree = "<group>"; };
 		CAA3DFA2C4B0BB78FFBAFE05 /* Pods-Lover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lover.release.xcconfig"; path = "Target Support Files/Pods-Lover/Pods-Lover.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,6 +196,8 @@
 		BFD56E6122FFBE7500032D97 /* Page */ = {
 			isa = PBXGroup;
 			children = (
+				BFD56EDA23018D5200032D97 /* UIView+Frame.h */,
+				BFD56EDB23018D5200032D97 /* UIView+Frame.m */,
 				BFD56E6422FFBE9E00032D97 /* HomeViewController.h */,
 				BFD56E6522FFBE9E00032D97 /* HomeViewController.m */,
 				BFD56E6622FFBE9E00032D97 /* HomeViewController.xib */,
@@ -367,7 +372,6 @@
 				C39BA7F6974A66583E86BF6F /* Pods-Lover.debug.xcconfig */,
 				CAA3DFA2C4B0BB78FFBAFE05 /* Pods-Lover.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -502,6 +506,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFD56EDC23018D5300032D97 /* UIView+Frame.m in Sources */,
 				BFD56E6C22FFBEFD00032D97 /* SecondViewController.m in Sources */,
 				BFD56EB122FFE04700032D97 /* ZRBirthdayEnvelopeUserFriendsCCell.m in Sources */,
 				BFD56EAD22FFE04700032D97 /* ZRBirthdayEnvelopeModel.m in Sources */,
