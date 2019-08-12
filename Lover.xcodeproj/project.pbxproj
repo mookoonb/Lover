@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BB5DCE712D67233F8D194F2 /* Pods_Lover.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A946E0B6DDACAABF0AC505F6 /* Pods_Lover.framework */; };
 		BFD56E4D22FFB9EA00032D97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56E4C22FFB9EA00032D97 /* AppDelegate.m */; };
 		BFD56E5022FFB9EA00032D97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56E4F22FFB9EA00032D97 /* ViewController.m */; };
 		BFD56E5322FFB9EA00032D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD56E5122FFB9EA00032D97 /* Main.storyboard */; };
@@ -39,14 +40,21 @@
 		BFD56EB322FFE04700032D97 /* ZRBirthdayEnvelopeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFD56EA422FFE04700032D97 /* ZRBirthdayEnvelopeViewController.xib */; };
 		BFD56EB422FFE04700032D97 /* ZRBirthdayEnvelopeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56EA522FFE04700032D97 /* ZRBirthdayEnvelopeViewController.m */; };
 		BFD56EB622FFEB5100032D97 /* eba5d13dd4de0aee395bf9d208ab29f7.gif in Resources */ = {isa = PBXBuildFile; fileRef = BFD56EB522FFEB5100032D97 /* eba5d13dd4de0aee395bf9d208ab29f7.gif */; };
-		BFD56EBC22FFF69700032D97 /* 樱花树1.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD56EB722FFF69600032D97 /* 樱花树1.png */; };
-		BFD56EBD22FFF69700032D97 /* 樱花瓣1.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD56EB822FFF69600032D97 /* 樱花瓣1.png */; };
-		BFD56EBE22FFF69700032D97 /* treetwo.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD56EB922FFF69600032D97 /* treetwo.png */; };
-		BFD56EBF22FFF69700032D97 /* 樱花树3.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD56EBA22FFF69600032D97 /* 樱花树3.png */; };
-		BFD56EC022FFF69700032D97 /* 樱花瓣2.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD56EBB22FFF69600032D97 /* 樱花瓣2.png */; };
+		BFD56EC4230112A100032D97 /* CountdownAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56EC2230112A100032D97 /* CountdownAnimationView.m */; };
+		BFD56ED0230112AB00032D97 /* num_9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFD56EC6230112AA00032D97 /* num_9.mp3 */; };
+		BFD56ED1230112AB00032D97 /* num_8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFD56EC7230112AA00032D97 /* num_8.mp3 */; };
+		BFD56ED2230112AB00032D97 /* num_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFD56EC8230112AA00032D97 /* num_3.mp3 */; };
+		BFD56ED3230112AB00032D97 /* num_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFD56EC9230112AA00032D97 /* num_2.mp3 */; };
+		BFD56ED4230112AB00032D97 /* orun_start.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFD56ECA230112AA00032D97 /* orun_start.mp3 */; };
+		BFD56ED5230112AB00032D97 /* num_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFD56ECB230112AA00032D97 /* num_1.mp3 */; };
+		BFD56ED6230112AB00032D97 /* num_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFD56ECC230112AA00032D97 /* num_5.mp3 */; };
+		BFD56ED7230112AB00032D97 /* num_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFD56ECD230112AA00032D97 /* num_4.mp3 */; };
+		BFD56ED8230112AB00032D97 /* num_6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFD56ECE230112AA00032D97 /* num_6.mp3 */; };
+		BFD56ED9230112AB00032D97 /* num_7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFD56ECF230112AA00032D97 /* num_7.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A946E0B6DDACAABF0AC505F6 /* Pods_Lover.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD56E4822FFB9EA00032D97 /* Lover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD56E4B22FFB9EA00032D97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BFD56E4C22FFB9EA00032D97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -104,11 +112,20 @@
 		BFD56EA522FFE04700032D97 /* ZRBirthdayEnvelopeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRBirthdayEnvelopeViewController.m; sourceTree = "<group>"; };
 		BFD56EA622FFE04700032D97 /* ZRBirthdayEnvelopeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRBirthdayEnvelopeViewController.h; sourceTree = "<group>"; };
 		BFD56EB522FFEB5100032D97 /* eba5d13dd4de0aee395bf9d208ab29f7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = eba5d13dd4de0aee395bf9d208ab29f7.gif; sourceTree = "<group>"; };
-		BFD56EB722FFF69600032D97 /* 樱花树1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "樱花树1.png"; sourceTree = "<group>"; };
-		BFD56EB822FFF69600032D97 /* 樱花瓣1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "樱花瓣1.png"; sourceTree = "<group>"; };
-		BFD56EB922FFF69600032D97 /* treetwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = treetwo.png; sourceTree = "<group>"; };
-		BFD56EBA22FFF69600032D97 /* 樱花树3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "樱花树3.png"; sourceTree = "<group>"; };
-		BFD56EBB22FFF69600032D97 /* 樱花瓣2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "樱花瓣2.png"; sourceTree = "<group>"; };
+		BFD56EC2230112A100032D97 /* CountdownAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownAnimationView.m; sourceTree = "<group>"; };
+		BFD56EC3230112A100032D97 /* CountdownAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownAnimationView.h; sourceTree = "<group>"; };
+		BFD56EC6230112AA00032D97 /* num_9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = num_9.mp3; sourceTree = "<group>"; };
+		BFD56EC7230112AA00032D97 /* num_8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = num_8.mp3; sourceTree = "<group>"; };
+		BFD56EC8230112AA00032D97 /* num_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = num_3.mp3; sourceTree = "<group>"; };
+		BFD56EC9230112AA00032D97 /* num_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = num_2.mp3; sourceTree = "<group>"; };
+		BFD56ECA230112AA00032D97 /* orun_start.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = orun_start.mp3; sourceTree = "<group>"; };
+		BFD56ECB230112AA00032D97 /* num_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = num_1.mp3; sourceTree = "<group>"; };
+		BFD56ECC230112AA00032D97 /* num_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = num_5.mp3; sourceTree = "<group>"; };
+		BFD56ECD230112AA00032D97 /* num_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = num_4.mp3; sourceTree = "<group>"; };
+		BFD56ECE230112AA00032D97 /* num_6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = num_6.mp3; sourceTree = "<group>"; };
+		BFD56ECF230112AA00032D97 /* num_7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = num_7.mp3; sourceTree = "<group>"; };
+		C39BA7F6974A66583E86BF6F /* Pods-Lover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lover.debug.xcconfig"; path = "Target Support Files/Pods-Lover/Pods-Lover.debug.xcconfig"; sourceTree = "<group>"; };
+		CAA3DFA2C4B0BB78FFBAFE05 /* Pods-Lover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lover.release.xcconfig"; path = "Target Support Files/Pods-Lover/Pods-Lover.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,17 +133,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BB5DCE712D67233F8D194F2 /* Pods_Lover.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		905230305AD057FA9B24C9FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A946E0B6DDACAABF0AC505F6 /* Pods_Lover.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BFD56E3F22FFB9EA00032D97 = {
 			isa = PBXGroup;
 			children = (
 				BFD56E4A22FFB9EA00032D97 /* Lover */,
 				BFD56E4922FFB9EA00032D97 /* Products */,
+				F2ABD6AD5B3C5188A05DE651 /* Pods */,
+				905230305AD057FA9B24C9FD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,6 +169,7 @@
 		BFD56E4A22FFB9EA00032D97 /* Lover */ = {
 			isa = PBXGroup;
 			children = (
+				BFD56EC1230112A100032D97 /* CountdownAnimationView */,
 				BFD56EB522FFEB5100032D97 /* eba5d13dd4de0aee395bf9d208ab29f7.gif */,
 				BFD56E9322FFE04700032D97 /* ZRBirthdayEnvelope */,
 				BFD56E8622FFE04700032D97 /* ZRBirthdayHeart */,
@@ -164,11 +193,6 @@
 		BFD56E6122FFBE7500032D97 /* Page */ = {
 			isa = PBXGroup;
 			children = (
-				BFD56EB822FFF69600032D97 /* 樱花瓣1.png */,
-				BFD56EBB22FFF69600032D97 /* 樱花瓣2.png */,
-				BFD56EB722FFF69600032D97 /* 樱花树1.png */,
-				BFD56EB922FFF69600032D97 /* treetwo.png */,
-				BFD56EBA22FFF69600032D97 /* 樱花树3.png */,
 				BFD56E6422FFBE9E00032D97 /* HomeViewController.h */,
 				BFD56E6522FFBE9E00032D97 /* HomeViewController.m */,
 				BFD56E6622FFBE9E00032D97 /* HomeViewController.xib */,
@@ -310,6 +334,43 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		BFD56EC1230112A100032D97 /* CountdownAnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				BFD56EC5230112AA00032D97 /* Sound */,
+				BFD56EC2230112A100032D97 /* CountdownAnimationView.m */,
+				BFD56EC3230112A100032D97 /* CountdownAnimationView.h */,
+			);
+			path = CountdownAnimationView;
+			sourceTree = "<group>";
+		};
+		BFD56EC5230112AA00032D97 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				BFD56EC6230112AA00032D97 /* num_9.mp3 */,
+				BFD56EC7230112AA00032D97 /* num_8.mp3 */,
+				BFD56EC8230112AA00032D97 /* num_3.mp3 */,
+				BFD56EC9230112AA00032D97 /* num_2.mp3 */,
+				BFD56ECA230112AA00032D97 /* orun_start.mp3 */,
+				BFD56ECB230112AA00032D97 /* num_1.mp3 */,
+				BFD56ECC230112AA00032D97 /* num_5.mp3 */,
+				BFD56ECD230112AA00032D97 /* num_4.mp3 */,
+				BFD56ECE230112AA00032D97 /* num_6.mp3 */,
+				BFD56ECF230112AA00032D97 /* num_7.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		F2ABD6AD5B3C5188A05DE651 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C39BA7F6974A66583E86BF6F /* Pods-Lover.debug.xcconfig */,
+				CAA3DFA2C4B0BB78FFBAFE05 /* Pods-Lover.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -317,9 +378,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFD56E5E22FFB9EF00032D97 /* Build configuration list for PBXNativeTarget "Lover" */;
 			buildPhases = (
+				79C67166DE99B48DA37A1F5B /* [CP] Check Pods Manifest.lock */,
 				BFD56E4422FFB9EA00032D97 /* Sources */,
 				BFD56E4522FFB9EA00032D97 /* Frameworks */,
 				BFD56E4622FFB9EA00032D97 /* Resources */,
+				38953D4E5B896DC247FAEFCC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -367,25 +430,72 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFD56EBC22FFF69700032D97 /* 樱花树1.png in Resources */,
+				BFD56ED8230112AB00032D97 /* num_6.mp3 in Resources */,
+				BFD56ED7230112AB00032D97 /* num_4.mp3 in Resources */,
 				BFD56EB322FFE04700032D97 /* ZRBirthdayEnvelopeViewController.xib in Resources */,
-				BFD56EBE22FFF69700032D97 /* treetwo.png in Resources */,
 				BFD56E5822FFB9EF00032D97 /* LaunchScreen.storyboard in Resources */,
+				BFD56ED4230112AB00032D97 /* orun_start.mp3 in Resources */,
+				BFD56ED9230112AB00032D97 /* num_7.mp3 in Resources */,
 				BFD56EB622FFEB5100032D97 /* eba5d13dd4de0aee395bf9d208ab29f7.gif in Resources */,
 				BFD56E5522FFB9EF00032D97 /* Assets.xcassets in Resources */,
+				BFD56ED3230112AB00032D97 /* num_2.mp3 in Resources */,
 				BFD56E5322FFB9EA00032D97 /* Main.storyboard in Resources */,
+				BFD56ED5230112AB00032D97 /* num_1.mp3 in Resources */,
 				BFD56E6822FFBE9E00032D97 /* HomeViewController.xib in Resources */,
+				BFD56ED1230112AB00032D97 /* num_8.mp3 in Resources */,
+				BFD56ED2230112AB00032D97 /* num_3.mp3 in Resources */,
 				BFD56EAA22FFE04700032D97 /* ZRBirthdayHeartViewController.xib in Resources */,
-				BFD56EC022FFF69700032D97 /* 樱花瓣2.png in Resources */,
 				BFD56EAF22FFE04700032D97 /* ZRBirthdayEnvelopeUserFriendsCCell.xib in Resources */,
-				BFD56EBD22FFF69700032D97 /* 樱花瓣1.png in Resources */,
+				BFD56ED0230112AB00032D97 /* num_9.mp3 in Resources */,
 				BFD56E6D22FFBEFD00032D97 /* SecondViewController.xib in Resources */,
+				BFD56ED6230112AB00032D97 /* num_5.mp3 in Resources */,
 				BFD56E7222FFBF2700032D97 /* ThreeViewController.xib in Resources */,
-				BFD56EBF22FFF69700032D97 /* 樱花树3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38953D4E5B896DC247FAEFCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lover/Pods-Lover-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lover/Pods-Lover-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lover/Pods-Lover-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79C67166DE99B48DA37A1F5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lover-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BFD56E4422FFB9EA00032D97 /* Sources */ = {
@@ -397,6 +507,7 @@
 				BFD56EAD22FFE04700032D97 /* ZRBirthdayEnvelopeModel.m in Sources */,
 				BFD56E8122FFC45B00032D97 /* ZRAudioPlayerMgr.m in Sources */,
 				BFD56EB022FFE04700032D97 /* ZRBirthdayEnvelopeUserDescView.m in Sources */,
+				BFD56EC4230112A100032D97 /* CountdownAnimationView.m in Sources */,
 				BFD56E5022FFB9EA00032D97 /* ViewController.m in Sources */,
 				BFD56EAB22FFE04700032D97 /* ZRBirthdayHeartViewController.m in Sources */,
 				BFD56E5B22FFB9EF00032D97 /* main.m in Sources */,
@@ -553,6 +664,7 @@
 		};
 		BFD56E5F22FFB9EF00032D97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C39BA7F6974A66583E86BF6F /* Pods-Lover.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -572,6 +684,7 @@
 		};
 		BFD56E6022FFB9EF00032D97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAA3DFA2C4B0BB78FFBAFE05 /* Pods-Lover.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

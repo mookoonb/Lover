@@ -8,11 +8,16 @@
 
 #import "SecondViewController.h"
 #import <QuartzCore/QuartzCore.h>
+#import <Masonry/Masonry.h>
 
 @interface SecondViewController ()
 
 @property (weak, nonatomic) IBOutlet UIImageView *backgroundView;
 @property (weak, nonatomic) IBOutlet UIImageView *contentImgV;
+
+@property (nonatomic, strong) UIButton * antionBtn;
+
+@property (nonatomic, strong) UIImageView * dreamImgV;
 
 @end
 
@@ -24,13 +29,15 @@
 
     self.view.backgroundColor = [UIColor whiteColor];
     
+    [self.contentImgV addSubview:self.dreamImgV];
     
-//    // =================== 背景图片 ===========================
-//    UIImageView * backgroundView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)];
-//    backgroundView.image = [UIImage imageNamed:@"樱花树1"];
-//    backgroundView.contentMode = UIViewContentModeScaleAspectFill;
-//    [self.view addSubview:backgroundView];
-    
+    [self.dreamImgV mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.equalTo(self.contentImgV);
+        make.bottom.mas_equalTo(-80);
+        make.width.mas_equalTo (200);
+        make.height.mas_equalTo(300);
+    }];
+
     
     // =================== 樱花飘落 ====================
     CAEmitterLayer * snowEmitterLayer = [CAEmitterLayer layer];
@@ -79,9 +86,50 @@
     snowEmitterLayer.emitterCells = [NSArray arrayWithObject:snowCell];
     
     [self.backgroundView.layer addSublayer:snowEmitterLayer];
+    
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        
+        [snowEmitterLayer removeFromSuperlayer];
+
+        self.contentImgV.image = [UIImage imageNamed:@"jiguang"];
+    });
+    
+    
+    self.dreamImgV.userInteractionEnabled = YES;
+    
+    [self.dreamImgV addSubview:self.antionBtn];
+    
+    
+    [self.antionBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.bottom.left.right.mas_equalTo(0);
+    }];
+    
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(6 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self.antionBtn sendActionsForControlEvents:UIControlEventTouchUpInside];
+    });
 
 }
 
+- (void)actionBtnAction:(id)sender{
+    NSLog(@"show masg");
+}
 
+- (UIButton *)antionBtn{
+    if (!_antionBtn) {
+        _antionBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+        [_antionBtn addTarget:self action:@selector(actionBtnAction:) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _antionBtn;
+}
+
+- (UIImageView *)dreamImgV{
+    if (!_dreamImgV) {
+        _dreamImgV = [[UIImageView alloc]init];
+        _dreamImgV.image = [UIImage imageNamed:@"boyandgirl"];
+    }
+    return _dreamImgV;
+}
 
 @end

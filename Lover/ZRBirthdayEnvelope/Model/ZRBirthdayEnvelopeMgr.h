@@ -13,6 +13,7 @@
 
 @interface ZRBirthdayEnvelopeMgr : NSObject
 
+
 + (instancetype)shareInstance;
 
 /**
