@@ -9,6 +9,7 @@
 #import "SecondViewController.h"
 #import <QuartzCore/QuartzCore.h>
 #import <Masonry/Masonry.h>
+#import "ThreeViewController.h"
 
 @interface SecondViewController ()
 
@@ -99,7 +100,12 @@
 }
 
 - (void)actionBtnAction:(id)sender{
-    NSLog(@"show masg");
+    
+    ThreeViewController * vc = [[ThreeViewController alloc]init];
+    
+    [self presentViewController:vc animated:NO completion:^{
+        
+    }];
 }
 
 - (UIButton *)antionBtn{

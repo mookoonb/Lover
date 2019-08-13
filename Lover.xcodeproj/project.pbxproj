@@ -52,6 +52,11 @@
 		BFD56ED8230112AB00032D97 /* num_6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFD56ECE230112AA00032D97 /* num_6.mp3 */; };
 		BFD56ED9230112AB00032D97 /* num_7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFD56ECF230112AA00032D97 /* num_7.mp3 */; };
 		BFD56EDC23018D5300032D97 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56EDB23018D5200032D97 /* UIView+Frame.m */; };
+		BFD56EE323024DFF00032D97 /* typewriter.wav in Resources */ = {isa = PBXBuildFile; fileRef = BFD56EDE23024DFF00032D97 /* typewriter.wav */; };
+		BFD56EE423024DFF00032D97 /* XJTypeWriterTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56EDF23024DFF00032D97 /* XJTypeWriterTextView.m */; };
+		BFD56EE523024DFF00032D97 /* XJTypeWriterLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56EE123024DFF00032D97 /* XJTypeWriterLabel.m */; };
+		BFD56EE723025B0B00032D97 /* AiharaHudemojiKaisho2.02.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFD56EE623025B0A00032D97 /* AiharaHudemojiKaisho2.02.ttf */; };
+		BFD56EE923025C3100032D97 /* FZZJ-DMFGBKSJW.TTF in Resources */ = {isa = PBXBuildFile; fileRef = BFD56EE823025C3000032D97 /* FZZJ-DMFGBKSJW.TTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -127,6 +132,13 @@
 		BFD56ECF230112AA00032D97 /* num_7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = num_7.mp3; sourceTree = "<group>"; };
 		BFD56EDA23018D5200032D97 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		BFD56EDB23018D5200032D97 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		BFD56EDE23024DFF00032D97 /* typewriter.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = typewriter.wav; sourceTree = "<group>"; };
+		BFD56EDF23024DFF00032D97 /* XJTypeWriterTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJTypeWriterTextView.m; sourceTree = "<group>"; };
+		BFD56EE023024DFF00032D97 /* XJTypeWriterLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJTypeWriterLabel.h; sourceTree = "<group>"; };
+		BFD56EE123024DFF00032D97 /* XJTypeWriterLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJTypeWriterLabel.m; sourceTree = "<group>"; };
+		BFD56EE223024DFF00032D97 /* XJTypeWriterTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJTypeWriterTextView.h; sourceTree = "<group>"; };
+		BFD56EE623025B0A00032D97 /* AiharaHudemojiKaisho2.02.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AiharaHudemojiKaisho2.02.ttf; sourceTree = "<group>"; };
+		BFD56EE823025C3000032D97 /* FZZJ-DMFGBKSJW.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FZZJ-DMFGBKSJW.TTF"; sourceTree = "<group>"; };
 		C39BA7F6974A66583E86BF6F /* Pods-Lover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lover.debug.xcconfig"; path = "Target Support Files/Pods-Lover/Pods-Lover.debug.xcconfig"; sourceTree = "<group>"; };
 		CAA3DFA2C4B0BB78FFBAFE05 /* Pods-Lover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lover.release.xcconfig"; path = "Target Support Files/Pods-Lover/Pods-Lover.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -172,6 +184,9 @@
 		BFD56E4A22FFB9EA00032D97 /* Lover */ = {
 			isa = PBXGroup;
 			children = (
+				BFD56EE823025C3000032D97 /* FZZJ-DMFGBKSJW.TTF */,
+				BFD56EE623025B0A00032D97 /* AiharaHudemojiKaisho2.02.ttf */,
+				BFD56EDD23024DFF00032D97 /* 打字机效果label */,
 				BFD56EC1230112A100032D97 /* CountdownAnimationView */,
 				BFD56EB522FFEB5100032D97 /* eba5d13dd4de0aee395bf9d208ab29f7.gif */,
 				BFD56E9322FFE04700032D97 /* ZRBirthdayEnvelope */,
@@ -366,6 +381,18 @@
 			path = Sound;
 			sourceTree = "<group>";
 		};
+		BFD56EDD23024DFF00032D97 /* 打字机效果label */ = {
+			isa = PBXGroup;
+			children = (
+				BFD56EDE23024DFF00032D97 /* typewriter.wav */,
+				BFD56EDF23024DFF00032D97 /* XJTypeWriterTextView.m */,
+				BFD56EE023024DFF00032D97 /* XJTypeWriterLabel.h */,
+				BFD56EE123024DFF00032D97 /* XJTypeWriterLabel.m */,
+				BFD56EE223024DFF00032D97 /* XJTypeWriterTextView.h */,
+			);
+			path = "打字机效果label";
+			sourceTree = "<group>";
+		};
 		F2ABD6AD5B3C5188A05DE651 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -442,6 +469,7 @@
 				BFD56ED9230112AB00032D97 /* num_7.mp3 in Resources */,
 				BFD56EB622FFEB5100032D97 /* eba5d13dd4de0aee395bf9d208ab29f7.gif in Resources */,
 				BFD56E5522FFB9EF00032D97 /* Assets.xcassets in Resources */,
+				BFD56EE923025C3100032D97 /* FZZJ-DMFGBKSJW.TTF in Resources */,
 				BFD56ED3230112AB00032D97 /* num_2.mp3 in Resources */,
 				BFD56E5322FFB9EA00032D97 /* Main.storyboard in Resources */,
 				BFD56ED5230112AB00032D97 /* num_1.mp3 in Resources */,
@@ -449,10 +477,12 @@
 				BFD56ED1230112AB00032D97 /* num_8.mp3 in Resources */,
 				BFD56ED2230112AB00032D97 /* num_3.mp3 in Resources */,
 				BFD56EAA22FFE04700032D97 /* ZRBirthdayHeartViewController.xib in Resources */,
+				BFD56EE323024DFF00032D97 /* typewriter.wav in Resources */,
 				BFD56EAF22FFE04700032D97 /* ZRBirthdayEnvelopeUserFriendsCCell.xib in Resources */,
 				BFD56ED0230112AB00032D97 /* num_9.mp3 in Resources */,
 				BFD56E6D22FFBEFD00032D97 /* SecondViewController.xib in Resources */,
 				BFD56ED6230112AB00032D97 /* num_5.mp3 in Resources */,
+				BFD56EE723025B0B00032D97 /* AiharaHudemojiKaisho2.02.ttf in Resources */,
 				BFD56E7222FFBF2700032D97 /* ThreeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -528,8 +558,10 @@
 				BFD56E6722FFBE9E00032D97 /* HomeViewController.m in Sources */,
 				BFD56EB222FFE04700032D97 /* ZRBirthdayEnvelopeView.m in Sources */,
 				BFD56E8522FFC45B00032D97 /* UIImage+Rotate.m in Sources */,
+				BFD56EE423024DFF00032D97 /* XJTypeWriterTextView.m in Sources */,
 				BFD56E8422FFC45B00032D97 /* ZRDevice.m in Sources */,
 				BFD56EAE22FFE04700032D97 /* ZRBirthdayEnvelopeMgr.m in Sources */,
+				BFD56EE523024DFF00032D97 /* XJTypeWriterLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

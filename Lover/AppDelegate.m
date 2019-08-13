@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "HomeViewController.h"
+#import "ThreeViewController.h"
 
 @interface AppDelegate ()
 
@@ -22,7 +23,7 @@
     
     self.window.backgroundColor = [UIColor blackColor];
     
-    self.window.rootViewController = [[HomeViewController alloc]init];
+    self.window.rootViewController = [[ThreeViewController alloc]init];
     
     [self.window makeKeyAndVisible];
     
