@@ -37,6 +37,7 @@
 
 
     self.animationView = [[CountdownAnimationView alloc]initWithFrame:CGRectMake(0, 0, 300, 300)];
+    
     [self.view addSubview:self.animationView];
     
     self.animationView.hidden = YES;
