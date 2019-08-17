@@ -11,7 +11,7 @@
 #import "ZRAudioPlayerMgr.h"
 #import "ZRBirthdayEnvelopeMgr.h"
 #import "ZRDevice.h"
-
+#
 @interface ZRBirthdayEnvelopeViewController ()
 
 @property (nonatomic, strong) IBOutlet ZRBirthdayEnvelopeView *envelopeView;

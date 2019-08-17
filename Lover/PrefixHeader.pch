@@ -1,0 +1,41 @@
+//
+//  PrefixHeader.pch
+//  Lover
+//
+//  Created by BenJim on 2019/8/17.
+//  Copyright © 2019 yqf. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+//判断设备类型
+#define ZRIPhone4 ([UIScreen mainScreen].bounds.size.height == 480)
+#define ZRIPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+#define ZRIPhone6 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? (CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size)) : NO)
+#define ZRIPhone6p ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size)) : NO)
+#define ZRIPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+#define ZRIPhoneXSM ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2688), [[UIScreen mainScreen] currentMode].size) : NO)
+#define ZRIPhoneXAll ([UIScreen mainScreen].bounds.size.height == 812 || [UIScreen mainScreen].bounds.size.height == 896)
+
+// 宽高
+#define ZRScreenH [UIScreen mainScreen].bounds.size.height
+#define ZRScreenW [UIScreen mainScreen].bounds.size.width
+#define ZRScreenMaxL (MAX(SCREEN_WIDTH, SCREEN_HEIGHT))
+#define ZRScreenMinL (MIN(SCREEN_WIDTH, SCREEN_HEIGHT))
+
+//状态栏、导航栏、标签栏高度
+#define ZRNavContentBarH 44.0f
+#define ZRStatusBarH (ZRIPhoneXAll ? 44.0f : 20.0f)
+#define ZRNavBarH (ZRIPhoneXAll ? 88.0f : 64.0f)
+#define ZRTabBarH (ZRIPhoneXAll ? 83.0f : 49.0f)
+
+#define ZRWidth(R) ((R)*ZRScreenW/375.0f)
+#define ZRHeight(R) ((R)*ZRScreenH/667.0f)
+#define ZRFontSize(R) ((R)*ZRScreenW/375.0f)
+#define ZRSystemFont(R) [UIFont systemFontOfSize:ZRFontSize(R)]
+
+#define ZRNSUserDefaults [NSUserDefaults standardUserDefaults]
+
+#endif /* PrefixHeader_pch */

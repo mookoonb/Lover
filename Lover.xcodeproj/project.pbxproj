@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3BB5DCE712D67233F8D194F2 /* Pods_Lover.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A946E0B6DDACAABF0AC505F6 /* Pods_Lover.framework */; };
+		A9F580142307C14B006388E0 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = A9F580132307C14B006388E0 /* heart.png */; };
 		BFD56E4D22FFB9EA00032D97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56E4C22FFB9EA00032D97 /* AppDelegate.m */; };
 		BFD56E5022FFB9EA00032D97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56E4F22FFB9EA00032D97 /* ViewController.m */; };
 		BFD56E5322FFB9EA00032D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD56E5122FFB9EA00032D97 /* Main.storyboard */; };
@@ -55,12 +56,12 @@
 		BFD56EE323024DFF00032D97 /* typewriter.wav in Resources */ = {isa = PBXBuildFile; fileRef = BFD56EDE23024DFF00032D97 /* typewriter.wav */; };
 		BFD56EE423024DFF00032D97 /* XJTypeWriterTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56EDF23024DFF00032D97 /* XJTypeWriterTextView.m */; };
 		BFD56EE523024DFF00032D97 /* XJTypeWriterLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56EE123024DFF00032D97 /* XJTypeWriterLabel.m */; };
-		BFD56EE723025B0B00032D97 /* AiharaHudemojiKaisho2.02.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFD56EE623025B0A00032D97 /* AiharaHudemojiKaisho2.02.ttf */; };
-		BFD56EE923025C3100032D97 /* FZZJ-DMFGBKSJW.TTF in Resources */ = {isa = PBXBuildFile; fileRef = BFD56EE823025C3000032D97 /* FZZJ-DMFGBKSJW.TTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A946E0B6DDACAABF0AC505F6 /* Pods_Lover.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F580132307C14B006388E0 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		A9F580152307C230006388E0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		BFD56E4822FFB9EA00032D97 /* Lover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD56E4B22FFB9EA00032D97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BFD56E4C22FFB9EA00032D97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -80,7 +81,6 @@
 		BFD56E6E22FFBF2700032D97 /* ThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
 		BFD56E6F22FFBF2700032D97 /* ThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
 		BFD56E7022FFBF2700032D97 /* ThreeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThreeViewController.xib; sourceTree = "<group>"; };
-		BFD56E7422FFC45B00032D97 /* ZRPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRPrefixHeader.pch; sourceTree = "<group>"; };
 		BFD56E7522FFC45B00032D97 /* ZRAudioPlayerMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRAudioPlayerMgr.m; sourceTree = "<group>"; };
 		BFD56E7622FFC45B00032D97 /* ZRDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRDevice.h; sourceTree = "<group>"; };
 		BFD56E7822FFC45B00032D97 /* ZRTableViewBaseAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRTableViewBaseAdapter.m; sourceTree = "<group>"; };
@@ -137,8 +137,6 @@
 		BFD56EE023024DFF00032D97 /* XJTypeWriterLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJTypeWriterLabel.h; sourceTree = "<group>"; };
 		BFD56EE123024DFF00032D97 /* XJTypeWriterLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJTypeWriterLabel.m; sourceTree = "<group>"; };
 		BFD56EE223024DFF00032D97 /* XJTypeWriterTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJTypeWriterTextView.h; sourceTree = "<group>"; };
-		BFD56EE623025B0A00032D97 /* AiharaHudemojiKaisho2.02.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AiharaHudemojiKaisho2.02.ttf; sourceTree = "<group>"; };
-		BFD56EE823025C3000032D97 /* FZZJ-DMFGBKSJW.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FZZJ-DMFGBKSJW.TTF"; sourceTree = "<group>"; };
 		C39BA7F6974A66583E86BF6F /* Pods-Lover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lover.debug.xcconfig"; path = "Target Support Files/Pods-Lover/Pods-Lover.debug.xcconfig"; sourceTree = "<group>"; };
 		CAA3DFA2C4B0BB78FFBAFE05 /* Pods-Lover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lover.release.xcconfig"; path = "Target Support Files/Pods-Lover/Pods-Lover.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -184,8 +182,7 @@
 		BFD56E4A22FFB9EA00032D97 /* Lover */ = {
 			isa = PBXGroup;
 			children = (
-				BFD56EE823025C3000032D97 /* FZZJ-DMFGBKSJW.TTF */,
-				BFD56EE623025B0A00032D97 /* AiharaHudemojiKaisho2.02.ttf */,
+				A9F580132307C14B006388E0 /* heart.png */,
 				BFD56EDD23024DFF00032D97 /* 打字机效果label */,
 				BFD56EC1230112A100032D97 /* CountdownAnimationView */,
 				BFD56EB522FFEB5100032D97 /* eba5d13dd4de0aee395bf9d208ab29f7.gif */,
@@ -204,6 +201,7 @@
 				BFD56E5622FFB9EF00032D97 /* LaunchScreen.storyboard */,
 				BFD56E5922FFB9EF00032D97 /* Info.plist */,
 				BFD56E5A22FFB9EF00032D97 /* main.m */,
+				A9F580152307C230006388E0 /* PrefixHeader.pch */,
 			);
 			path = Lover;
 			sourceTree = "<group>";
@@ -243,7 +241,6 @@
 		BFD56E7322FFC45B00032D97 /* ZRBaseLib */ = {
 			isa = PBXGroup;
 			children = (
-				BFD56E7422FFC45B00032D97 /* ZRPrefixHeader.pch */,
 				BFD56E7522FFC45B00032D97 /* ZRAudioPlayerMgr.m */,
 				BFD56E7622FFC45B00032D97 /* ZRDevice.h */,
 				BFD56E7722FFC45B00032D97 /* ZRAdapter */,
@@ -469,11 +466,11 @@
 				BFD56ED9230112AB00032D97 /* num_7.mp3 in Resources */,
 				BFD56EB622FFEB5100032D97 /* eba5d13dd4de0aee395bf9d208ab29f7.gif in Resources */,
 				BFD56E5522FFB9EF00032D97 /* Assets.xcassets in Resources */,
-				BFD56EE923025C3100032D97 /* FZZJ-DMFGBKSJW.TTF in Resources */,
 				BFD56ED3230112AB00032D97 /* num_2.mp3 in Resources */,
 				BFD56E5322FFB9EA00032D97 /* Main.storyboard in Resources */,
 				BFD56ED5230112AB00032D97 /* num_1.mp3 in Resources */,
 				BFD56E6822FFBE9E00032D97 /* HomeViewController.xib in Resources */,
+				A9F580142307C14B006388E0 /* heart.png in Resources */,
 				BFD56ED1230112AB00032D97 /* num_8.mp3 in Resources */,
 				BFD56ED2230112AB00032D97 /* num_3.mp3 in Resources */,
 				BFD56EAA22FFE04700032D97 /* ZRBirthdayHeartViewController.xib in Resources */,
@@ -482,7 +479,6 @@
 				BFD56ED0230112AB00032D97 /* num_9.mp3 in Resources */,
 				BFD56E6D22FFBEFD00032D97 /* SecondViewController.xib in Resources */,
 				BFD56ED6230112AB00032D97 /* num_5.mp3 in Resources */,
-				BFD56EE723025B0B00032D97 /* AiharaHudemojiKaisho2.02.ttf in Resources */,
 				BFD56E7222FFBF2700032D97 /* ThreeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -706,7 +702,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HXX3RW9MPS;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/Lover/ZRBaseLib/ZRPrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Lover/PrefixHeader.pch";
 				INFOPLIST_FILE = Lover/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -726,7 +722,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HXX3RW9MPS;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/Lover/ZRBaseLib/ZRPrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Lover/PrefixHeader.pch";
 				INFOPLIST_FILE = Lover/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
