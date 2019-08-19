@@ -94,18 +94,14 @@
         make.top.bottom.left.right.mas_equalTo(0);
     }];
     
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(10 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [self.antionBtn sendActionsForControlEvents:UIControlEventTouchUpInside];
-    });
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(10 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//        [self.antionBtn sendActionsForControlEvents:UIControlEventTouchUpInside];
+//    });
 }
 
 - (void)actionBtnAction:(id)sender{
     
-    ThreeViewController * vc = [[ThreeViewController alloc]init];
-    
-    [self presentViewController:vc animated:NO completion:^{
-        
-    }];
+ 
 }
 
 - (UIButton *)antionBtn{

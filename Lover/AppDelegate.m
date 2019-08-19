@@ -23,10 +23,12 @@
     
     self.window.backgroundColor = [UIColor blackColor];
     
-    self.window.rootViewController = [[ThreeViewController alloc]init];
+    self.window.rootViewController = [[HomeViewController alloc]init];
     
     [self.window makeKeyAndVisible];
     
+    [Bmob registerWithAppKey:@"7275842d229f52d57fd3c81ce3e559e7"];
+
     return YES;
 
 }

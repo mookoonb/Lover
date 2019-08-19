@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - BmobSDK (2.3.4)
   - IQKeyboardManager (6.0.6)
   - Masonry (1.1.0)
   - MJExtension (3.0.15.1)
@@ -24,15 +25,17 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 3.2.1)
+  - BmobSDK
   - IQKeyboardManager (~> 6.0.5)
   - Masonry (~> 1.1.0)
   - MJExtension (~> 3.0.15.1)
   - MJRefresh (~> 3.1.15.3)
-  - SDWebImage (~> 4.4.1)
+  - SDWebImage
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - BmobSDK
     - IQKeyboardManager
     - Masonry
     - MJExtension
@@ -41,12 +44,13 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  BmobSDK: 03e9889d92b721bfc2452faa5b2c2497581abbca
   IQKeyboardManager: 6b4ecd3e59cf55a26133d802d4678721d7f88499
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
   MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
   SDWebImage: c10d14a8883ebd89664f02a422006f66a85c0c5d
 
-PODFILE CHECKSUM: 4cc8a5a58b6c9a03518a638e2f56f6906b965b59
+PODFILE CHECKSUM: a996f3c1cdff4cd8fd1920f42564fbb8ed6cb837
 
-COCOAPODS: 1.7.4
+COCOAPODS: 1.7.3

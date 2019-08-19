@@ -8,10 +8,11 @@ target 'Lover' do
   # Pods for Lover
   
     pod 'Masonry', '~> 1.1.0'
-    pod 'SDWebImage', '~> 4.4.1'
+    pod 'SDWebImage'
     pod 'IQKeyboardManager', '~> 6.0.5'
     pod 'AFNetworking', '~> 3.2.1'
     pod 'MJExtension', '~> 3.0.15.1'
     pod 'MJRefresh', '~> 3.1.15.3'
-
+    pod 'BmobSDK'
+    
 end

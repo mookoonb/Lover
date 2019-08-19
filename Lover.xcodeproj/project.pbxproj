@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		3BB5DCE712D67233F8D194F2 /* Pods_Lover.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A946E0B6DDACAABF0AC505F6 /* Pods_Lover.framework */; };
 		A9F580142307C14B006388E0 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = A9F580132307C14B006388E0 /* heart.png */; };
+		A9F580192307C38D006388E0 /* HeartManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F580182307C38D006388E0 /* HeartManager.m */; };
+		A9F5801F2308ECFC006388E0 /* LOAleartHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F5801E2308ECFC006388E0 /* LOAleartHandler.m */; };
+		A9F580222308ED7D006388E0 /* UIViewController+Lover.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F580212308ED7D006388E0 /* UIViewController+Lover.m */; };
+		A9F5802423091E53006388E0 /* 许嵩 - 有何不可.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9F5802323091E53006388E0 /* 许嵩 - 有何不可.mp3 */; };
 		BFD56E4D22FFB9EA00032D97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56E4C22FFB9EA00032D97 /* AppDelegate.m */; };
 		BFD56E5022FFB9EA00032D97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56E4F22FFB9EA00032D97 /* ViewController.m */; };
 		BFD56E5322FFB9EA00032D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD56E5122FFB9EA00032D97 /* Main.storyboard */; };
@@ -62,6 +66,13 @@
 		A946E0B6DDACAABF0AC505F6 /* Pods_Lover.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9F580132307C14B006388E0 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
 		A9F580152307C230006388E0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A9F580172307C38D006388E0 /* HeartManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeartManager.h; sourceTree = "<group>"; };
+		A9F580182307C38D006388E0 /* HeartManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeartManager.m; sourceTree = "<group>"; };
+		A9F5801D2308ECFC006388E0 /* LOAleartHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LOAleartHandler.h; sourceTree = "<group>"; };
+		A9F5801E2308ECFC006388E0 /* LOAleartHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LOAleartHandler.m; sourceTree = "<group>"; };
+		A9F580202308ED7D006388E0 /* UIViewController+Lover.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Lover.h"; sourceTree = "<group>"; };
+		A9F580212308ED7D006388E0 /* UIViewController+Lover.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Lover.m"; sourceTree = "<group>"; };
+		A9F5802323091E53006388E0 /* 许嵩 - 有何不可.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "许嵩 - 有何不可.mp3"; sourceTree = "<group>"; };
 		BFD56E4822FFB9EA00032D97 /* Lover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD56E4B22FFB9EA00032D97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BFD56E4C22FFB9EA00032D97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -161,6 +172,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A9F580162307C372006388E0 /* HeartManager */ = {
+			isa = PBXGroup;
+			children = (
+				A9F580172307C38D006388E0 /* HeartManager.h */,
+				A9F580182307C38D006388E0 /* HeartManager.m */,
+				A9F5801D2308ECFC006388E0 /* LOAleartHandler.h */,
+				A9F5801E2308ECFC006388E0 /* LOAleartHandler.m */,
+				A9F580202308ED7D006388E0 /* UIViewController+Lover.h */,
+				A9F580212308ED7D006388E0 /* UIViewController+Lover.m */,
+			);
+			path = HeartManager;
+			sourceTree = "<group>";
+		};
 		BFD56E3F22FFB9EA00032D97 = {
 			isa = PBXGroup;
 			children = (
@@ -182,6 +206,7 @@
 		BFD56E4A22FFB9EA00032D97 /* Lover */ = {
 			isa = PBXGroup;
 			children = (
+				A9F580162307C372006388E0 /* HeartManager */,
 				A9F580132307C14B006388E0 /* heart.png */,
 				BFD56EDD23024DFF00032D97 /* 打字机效果label */,
 				BFD56EC1230112A100032D97 /* CountdownAnimationView */,
@@ -364,6 +389,7 @@
 		BFD56EC5230112AA00032D97 /* Sound */ = {
 			isa = PBXGroup;
 			children = (
+				A9F5802323091E53006388E0 /* 许嵩 - 有何不可.mp3 */,
 				BFD56EC6230112AA00032D97 /* num_9.mp3 */,
 				BFD56EC7230112AA00032D97 /* num_8.mp3 */,
 				BFD56EC8230112AA00032D97 /* num_3.mp3 */,
@@ -458,6 +484,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9F5802423091E53006388E0 /* 许嵩 - 有何不可.mp3 in Resources */,
 				BFD56ED8230112AB00032D97 /* num_6.mp3 in Resources */,
 				BFD56ED7230112AB00032D97 /* num_4.mp3 in Resources */,
 				BFD56EB322FFE04700032D97 /* ZRBirthdayEnvelopeViewController.xib in Resources */,
@@ -542,6 +569,7 @@
 				BFD56E5022FFB9EA00032D97 /* ViewController.m in Sources */,
 				BFD56EAB22FFE04700032D97 /* ZRBirthdayHeartViewController.m in Sources */,
 				BFD56E5B22FFB9EF00032D97 /* main.m in Sources */,
+				A9F580192307C38D006388E0 /* HeartManager.m in Sources */,
 				BFD56EAC22FFE04700032D97 /* ZRBirthdayEnvelopeFriendsItem.m in Sources */,
 				BFD56EB422FFE04700032D97 /* ZRBirthdayEnvelopeViewController.m in Sources */,
 				BFD56E7122FFBF2700032D97 /* ThreeViewController.m in Sources */,
@@ -550,6 +578,7 @@
 				BFD56E4D22FFB9EA00032D97 /* AppDelegate.m in Sources */,
 				BFD56E8222FFC45B00032D97 /* ZRTableViewBaseAdapter.m in Sources */,
 				BFD56EA722FFE04700032D97 /* ZRBirthdayHeartMgr.m in Sources */,
+				A9F580222308ED7D006388E0 /* UIViewController+Lover.m in Sources */,
 				BFD56EA822FFE04700032D97 /* ZRBirthdayHeartModel.m in Sources */,
 				BFD56E6722FFBE9E00032D97 /* HomeViewController.m in Sources */,
 				BFD56EB222FFE04700032D97 /* ZRBirthdayEnvelopeView.m in Sources */,
@@ -557,6 +586,7 @@
 				BFD56EE423024DFF00032D97 /* XJTypeWriterTextView.m in Sources */,
 				BFD56E8422FFC45B00032D97 /* ZRDevice.m in Sources */,
 				BFD56EAE22FFE04700032D97 /* ZRBirthdayEnvelopeMgr.m in Sources */,
+				A9F5801F2308ECFC006388E0 /* LOAleartHandler.m in Sources */,
 				BFD56EE523024DFF00032D97 /* XJTypeWriterLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
